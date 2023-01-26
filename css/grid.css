@@ -1,0 +1,101 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(40px, auto);
+}
+header{
+    grid-column: 1 / -1;
+    grid-row: 1 / 15;
+}
+/*Startsidan*/
+.rubrik{
+    grid-column: 1 / -1;
+    grid-row: 14 / 14;
+    display: flex;
+    justify-content: center;
+}
+.welcome{
+    grid-column: 1 / -1;
+    grid-row: 15 / 15;
+    display: flex;
+    justify-content: center;
+}
+.welcometext{
+    grid-column: 1 / -1;
+    grid-row: 16 / 16;
+    display: flex;
+    justify-content: center;
+}
+.menylink{
+    grid-column: 1 / -1;
+    grid-row: 17 / 17;
+    display: flex;
+    justify-content: center;
+}
+.omosslink{
+    grid-column: 1 / -1;
+    grid-row: 18 / 18;
+    display: flex;
+    justify-content: center;
+}
+.bokning{
+    grid-column: 1 / -1;
+    grid-row: 19 / 19;
+    display: flex;
+    justify-content: center;
+}
+.kontakt{
+    grid-column: 1 / -1;
+    grid-row: 20 / 20;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+}
+/*Menysidan*/
+.menyrubrik{
+    grid-column: 1 / -1;
+    grid-row: 15 / 15;
+    display: flex;
+    justify-content: center;
+}
+.menytext{
+    grid-column: 1 / -1;
+    grid-row: 16 / 16;
+    display: flex;
+    justify-content: center;
+}
+.meny1{
+    grid-column: 1 / -1;
+    grid-row: 17 / 17;
+    display: flex;
+    justify-content: center;
+}
+#kott{
+    grid-column: 3 / auto;
+    grid-row: 18 / 19 
+}
+.meny2{
+    grid-column: 1 / -1;
+    grid-row: 19 / 19;
+    display: flex;
+    justify-content: center;
+}
+#fagel{
+    grid-column: 3 / auto;
+    grid-row: 20 / 21; 
+}
+.meny3{
+    grid-column: 1 / -1;
+    grid-row:  21 / 21;
+    display: flex;
+    justify-content: center;
+}
+#fisk{
+    grid-column: 3 / auto;
+    grid-row: 22 / 23; 
+}
+/*Om oss-sidan*/
