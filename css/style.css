@@ -2,6 +2,26 @@ body{
     padding: 0;
     margin: 0;
     border: 0;
+    background-color: rgb(0, 61, 41);
+}
+.rubrik{
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+    margin: 30px;
 }
 header{
     background-image: url(../img/pub.webp);
@@ -9,3 +29,35 @@ header{
     margin: 0;
     border: 0;
 }
+footer{
+    background-color:#111
+}
+/*Öppningsbar sidomeny*/
+.sidenav {
+    height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 15px;
+}
+/*Länkar - sidomeny*/
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+  }

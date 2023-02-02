@@ -10,7 +10,7 @@ header{
 /*Startsidan*/
 .rubrik{
     grid-column: 1 / -1;
-    grid-row: 14 / 14;
+    grid-row: 10 / 10;
     display: flex;
     justify-content: center;
 }
@@ -98,4 +98,20 @@ footer{
     grid-column: 3 / auto;
     grid-row: 22 / 23; 
 }
+footer{
+    grid-column: 1 / -1;
+    grid-row: 23 / 24;
+    display: flex;
+    justify-content: center;
+}
 /*Om oss-sidan*/
+.historia{
+    grid-column: 1 / -1;
+    grid-row: 16 / 17;
+}
+.omossrubrik{
+    grid-column: 1 / -1;
+    grid-row: 15 / 16;
+    display: flex;
+    justify-content: center;
+}
