@@ -26,25 +26,25 @@ header{
     display: flex;
     justify-content: center;
 }
-.menylink{
+#menylink{
     grid-column: 1 / -1;
     grid-row: 17 / 17;
     display: flex;
     justify-content: center;
 }
-.omosslink{
+#omosslink{
     grid-column: 1 / -1;
     grid-row: 18 / 18;
     display: flex;
     justify-content: center;
 }
-.bokning{
+#bokning{
     grid-column: 1 / -1;
     grid-row: 19 / 19;
     display: flex;
     justify-content: center;
 }
-.kontakt{
+#kontakt{
     grid-column: 1 / -1;
     grid-row: 20 / 20;
     display: flex;
@@ -54,6 +54,10 @@ footer{
     grid-column: 1 / -1;
     display: flex;
     justify-content: center;
+}
+.sidenav{
+    grid-column: 1 / 1;
+    grid-row: 16 / 16;
 }
 /*Menysidan*/
 .menyrubrik{
